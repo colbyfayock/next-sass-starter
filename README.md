@@ -1,5 +1,7 @@
 # Next.js Sass Starter
 
+Use Sass to start your Next.js app with CSS superpowers!
+
 ## Quick Start
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/colbyfayock/next-sass-starter)
 
