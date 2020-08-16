@@ -2,10 +2,10 @@
 
 Use Sass to start your Next.js app with CSS superpowers!
 
-## Quick Start
+## ⚡️ Quick Start
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/colbyfayock/next-sass-starter)
 
-## Getting Started
+## 🚀 Getting Started
 
 Run the following command to create a new project with this Starter:
 
@@ -24,12 +24,12 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see your new project!
 
-## What's inside?
+## 🧐 What's inside?
 This Starter includes [Sass](https://sass-lang.com/) which is a way to provide superpowers to your CSS.
 
 The rest of the Starter is based off of the Next.js default starter.
 
-## Learn More About Next.js
+## 📚 Learn More About Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
