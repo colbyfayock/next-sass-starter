@@ -1,20 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Sass Starter
+
+## Quick Start
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/colbyfayock/next-sass-starter)
 
 ## Getting Started
 
-First, run the development server:
+Run the following command to create a new project with this Starter:
 
-```bash
-npm run dev
+```
+yarn create next-app my-app -e https://github.com/colbyfayock/next-sass-starter
 # or
-yarn dev
+npx create-next-app my-app -e https://github.com/colbyfayock/next-sass-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the project and dependencies are finished installing, you can navigate to that directory and start up the development server with:
+```
+yarn dev
+# or
+npm run dev
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see your new project!
 
-## Learn More
+## What's inside?
+This Starter includes [Sass](https://sass-lang.com/) which is a way to provide superpowers to your CSS.
+
+The rest of the Starter is based off of the Next.js default starter.
+
+## Learn More About Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -22,9 +35,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
