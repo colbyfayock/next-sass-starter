@@ -1,19 +1,23 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-import Container from '../components/Container';
-import Main from '../components/Main';
-import Footer from '../components/Footer';
-import Grid from '../components/Grid';
-import Card from '../components/Card';
+import Container from "../components/Container";
+import Main from "../components/Main";
+import Footer from "../components/Footer";
+import Grid from "../components/Grid";
+import Card from "../components/Card";
 
-import styles from '../styles/Home.module.scss'
+import styles from "../styles/Home.module.scss";
 
 export default function Home() {
   return (
     <Container>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+
+        <meta
+          name="description"
+          content="Use Sass to start your Next.js app with CSS superpowers!"
+        ></meta>
       </Head>
 
       <Main>
@@ -28,31 +32,31 @@ export default function Home() {
         <Grid>
           <Card>
             <a href="https://nextjs.org/docs">
-              <h3>Documentation &rarr;</h3>
+              <h2>Documentation &rarr;</h2>
               <p>Find in-depth information about Next.js features and API.</p>
             </a>
           </Card>
 
           <Card>
             <a href="https://nextjs.org/learn">
-              <h3>Learn &rarr;</h3>
+              <h2>Learn &rarr;</h2>
               <p>Learn about Next.js in an interactive course with quizzes!</p>
             </a>
           </Card>
 
           <Card>
             <a href="https://github.com/vercel/next.js/tree/master/examples">
-              <h3>Examples &rarr;</h3>
+              <h2>Examples &rarr;</h2>
               <p>Discover and deploy boilerplate example Next.js projects.</p>
             </a>
           </Card>
 
           <Card>
-            <a
-              href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            >
-              <h3>Deploy &rarr;</h3>
-              <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+            <a href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app">
+              <h2>Deploy &rarr;</h2>
+              <p>
+                Instantly deploy your Next.js site to a public URL with Vercel.
+              </p>
             </a>
           </Card>
         </Grid>
@@ -60,5 +64,5 @@ export default function Home() {
 
       <Footer />
     </Container>
-  )
+  );
 }
