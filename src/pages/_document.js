@@ -11,6 +11,8 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href="/favicon.ico" />
+
+          <meta name="robots" content="index, follow" />
         </Head>
         <body>
           <Main />
