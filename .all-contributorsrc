@@ -14,6 +14,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "imadatyatalah",
+      "name": "imad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70093484?v=4",
+      "profile": "https://github.com/imadatyatalah",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
